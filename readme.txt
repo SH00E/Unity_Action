@@ -5,3 +5,4 @@
   行走等动作不交给Root Motion避免引起各种各样的问题
 输入
   使用New Input System
+  通过NewInputSystem实现按键组合，分来walk和run
