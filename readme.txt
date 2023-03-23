@@ -5,4 +5,11 @@
   行走等动作不交给Root Motion避免引起各种各样的问题
 输入
   使用New Input System
-  通过NewInputSystem实现按键组合，分来walk和run
+  实现手柄/鼠标行走和奔跑功能
+  多设备出输入输出，通过PlayerInput的currentControlScheme就可以知道是那个设备在工作了
+人物
+  使用了avatar骨骼系统、动作复用，同时使用了衣物模拟
+缺点
+  暂时不包含转身动画，后续改进
+  感觉使用第三人称控制器会比较好一些
+  
